@@ -1,0 +1,11 @@
+.card-titles{
+    color: black;
+    font-style: italic;
+    display: flex;
+}
+.card-content{
+    color: black;
+}
+.btn-edit{    
+    padding: 0 15px;
+}
