@@ -1,0 +1,30 @@
+.title-card{
+color: black;
+}
+.data-spinner-slide{
+    color: white;
+}
+.percentage-value{
+    color: white;
+    border-color: aqua;
+}
+.skill-list{
+    list-style: none;
+}
+.skill-data{
+    display: flex;
+}
+.data-card{
+    display: flex;    
+}
+.data-container{
+    display: flex;
+    padding: 0 15px;
+}
+.display-percentage{
+    display: flex;
+    position: relative;
+}
+.btn-edit{    
+    padding: 0 15px;
+}

@@ -1,0 +1,21 @@
+.btn-edit{
+    padding: 0 15px;    
+}
+.card-titles{
+    color: black;
+    display: flex;
+}
+.list-info{
+    color: white;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.logo-image{
+    border: 2px;
+}
+.data-card{
+    display: flex;
+}
+.data-container a{
+    display: flex;
+}

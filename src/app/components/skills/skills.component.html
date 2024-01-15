@@ -1,0 +1,36 @@
+<div class="card mat-card">
+    <div class="title-card">
+        <h1>Habilidades</h1>
+        <div class="skill-data">
+            <ul class="skill-list">
+                <li ngFor="let skill of skillList">
+                    <mat-card class="data-card">
+                        <div class="data-container">
+                            <a href="#">
+                                <div class="data-spinner-slide">
+                                    <h3>Capacidad de aprendizaje</h3>
+                                    <div class="display-percentage">
+                                        <mat-progress-spinner class="slide-data" 
+                                        value="90" 
+                                        mode="determinate"
+                                        color="accent"
+                                        >                                        
+                                        </mat-progress-spinner>
+                                        <div class="percentage-value">
+                                            <h2>90%</h2>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </a>
+                        </div>
+                        <div class="data-control">
+                            <div class="btn-edit">
+                                <a href="#" class="btn-right"><i class="fa fa-pen"></i></a>
+                            </div>
+                        </div>
+                    </mat-card>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

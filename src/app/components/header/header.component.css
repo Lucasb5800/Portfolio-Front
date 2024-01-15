@@ -1,0 +1,28 @@
+#first.card{
+  background-color: aqua;
+  
+}
+.background-image{
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  background-clip: content-box;
+  border: black 3px double;
+  image-rendering: optimizeQuality;
+  }
+.profile-image {
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+
+  }
+.resume-info{
+    color: black;
+  }
+.btn-edit{
+    padding: 0 15px;    
+  }
+#info-img{
+    display: flex;
+  }
+.resume-info{
+    align-items: center;
+  }
